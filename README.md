@@ -1,7 +1,7 @@
 # Xcoder
 Encode and Decode any text file with key.
 
-# Switches to use :
+# Switches to use 
 -f, --file  to select single file   
 -d, --dir   to select a whole directory   
 -E, --encode  to choose action : encode   
@@ -9,3 +9,7 @@ Encode and Decode any text file with key.
 -K, --key     to input the key   
 --DeleteOriginals   post processing action : delete originals   
 --KeepOriginals     post processing action : keeps originals   
+
+# Example
+./xcoder.py -f testFile.txt -E -K P@55w0rD --DeleteOriginals
+
